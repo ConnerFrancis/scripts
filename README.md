@@ -40,7 +40,8 @@ wget https://codeload.github.com/ConnerFrancis/scripts/zip/master
 ```
 
 Unzip the downloaded package
-```unzip -j master
+```
+unzip -j master
 ```
 
 Remove the package zip
