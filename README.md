@@ -18,7 +18,7 @@ I can't promise that all these scripts will run correctly for you, especially si
 >NOTE: The scripts are installed in `/usr/local/bin` since this folder is the recommended place for user scripts. The local user bin is also already included in the $PATH, meaning that you can simply run the scripts by typing `NAME.sh`, where `NAME` is the name of the script, from any directory inside the terminal. For example, I could do `temps.sh` to run the temps script.
 
 If you want to do it all in one go copy and paste this (and you don't need to change a thing):
-`sudo chown $USER:$USER /usr/local/bin && cd /usr/local/bin && wget https://codeload.github.com/ConnerFrancis/scripts/zip/master && unzip -j master && rm ./master`
+`sudo chown $USER:$USER /usr/local/bin && cd /usr/local/bin && wget https://codeload.github.com/ConnerFrancis/scripts/zip/master && unzip -j master && rm ./master && chmod +x *.sh`
 
 If not you can follow along these steps:
 
@@ -36,3 +36,6 @@ Unzip the downloaded package
 
 Remove the package zip
 `rm ./master`
+
+Make all scripts in `usr/local/bin` executable
+`chmod +x *.sh`
