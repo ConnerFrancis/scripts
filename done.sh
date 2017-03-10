@@ -23,3 +23,22 @@ elif [ "$?" = "130" ]; then
 elif [ "$?" = "255" ]; then
   notify-send 'The process exited with an error, but it was out of error code range..'
 fi
+
+if [ "$?" = "0" ]; then
+  echo 'The process finished with no errors.'
+elif [ "$?" = "1" ]; then
+  echo 'The process hit a general error.'
+elif [ "$?" = "2" ]; then
+  echo 'The process hit a \'misuse of shell builtins\' error.'
+elif [ "$?" = "126" ]; then
+  echo 'The process hit a \'command cannot be invoked\' error.'
+elif [ "$?" = "127" ]; then
+  echo 'The process hit a \'command not found\' error.'
+elif [ "$?" = "128" ]; then
+  echo 'The process hit a \'invalid argument to exit\' error.'
+elif [ "$?" = "130" ]; then
+  echo 'The process was manually terminate.'
+elif [ "$?" = "255" ]; then
+  echo 'The process exited with an error, but it was out of error code range..'
+fi
+
