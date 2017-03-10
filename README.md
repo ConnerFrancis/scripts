@@ -10,6 +10,10 @@ I can't promise that all these scripts will run correctly for you, especially si
 | Script        | Function      |
 | ------------- |:-------------:|
 | temps         | opens terminals that watch cpu and gpu temperatures   |
+| git-push      | adds everything, you enter a commit, and it pushes everything |
+| done          | gives a desktop notification that your process is done |
+
+*Please* read the first comments in the scripts to get more details on how to use them or what they do.
 
 
 ---
