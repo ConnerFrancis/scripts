@@ -9,3 +9,7 @@ gnome-terminal -e 'watch nvidia-smi -q -d temperature'
 # 'nvidia-smi' outputs the GPU temperature
 # the tool comes with nvidia gpu drivers for linux
 gnome-terminal -e 'watch sensors'
+
+# Now we close the original terminal
+# i'm lazy
+exit 0
