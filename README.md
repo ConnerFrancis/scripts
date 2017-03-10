@@ -10,8 +10,7 @@ I can't promise that all these scripts will run correctly for you, especially si
 | Script        | Function      |
 | ------------- |:-------------:|
 | temps         | opens terminals that watch cpu and gpu temperatures   |
-| temps-cpu     | cpu part of temps.sh |
-| temps-gpu     | gpu part of temps.sh |
+
 
 ---
 
