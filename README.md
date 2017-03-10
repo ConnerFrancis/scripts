@@ -22,32 +22,39 @@ If you want to do it all in one go copy and paste this (and you don't need to ch
 sudo chown $USER:$USER /usr/local/bin && cd /usr/local/bin && wget https://codeload.github.com/ConnerFrancis/scripts/zip/master && unzip -j master && rm ./master && chmod +x *.sh
 ```
 
+
 If not you can follow along these steps:
+
 
 Set the owner of `/usr/local/bin` to the current user (which in bash is set to $USER) to allow the use of the scripts from anywhere
 ```
 sudo chown $USER:$USER /usr/local/bin
 ```
 
+
 Navigate to `/usr/local/bin`
 ```
 cd /usr/local/bin
 ```
+
 
 Download the repository
 ```
 wget https://codeload.github.com/ConnerFrancis/scripts/zip/master
 ```
 
+
 Unzip the downloaded package
 ```
 unzip -j master
 ```
 
+
 Remove the package zip
 ```
 rm ./master
 ```
+
 
 Make all scripts in `usr/local/bin` executable
 ```
