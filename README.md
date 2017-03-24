@@ -1,4 +1,5 @@
 # scripts
+![build status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 scripts is a repository I use to store my bash script files. This mainly serves as a backup of useful script files, but if you wish to install them the steps are below the scripts table.
 >NOTE:
 I can't promise that all these scripts will run correctly for you, especially since some of them are using certain dependencies related to my hardware (i.e. `temps.sh` which uses both `lm-sensors` and `nvidia-smi`). The scripts will obviously tell you when trying to run the commands if you don't have the dependencies installed needed, but some dependencies just may not be compatible with your hardware (i.e. I have a nvidia GPU, you may not).
